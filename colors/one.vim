@@ -331,7 +331,7 @@ if has('gui_running') || &t_Co == 88 || &t_Co == 256
   " }}}
 
   " Standard syntax highlighting --------------------------------------------{{{
-  call <sid>X('Comment',        s:mono_3,  '',          'italic')
+  call <sid>X('Comment',        s:mono_3,  '',          '')
   call <sid>X('Constant',       s:hue_4,   '',          '')
   call <sid>X('String',         s:hue_4,   '',          '')
   call <sid>X('Character',      s:hue_4,   '',          '')
@@ -569,7 +569,7 @@ if has('gui_running') || &t_Co == 88 || &t_Co == 256
 
   " Vim highlighting --------------------------------------------------------{{{
   call <sid>X('vimHighlight',    s:hue_2,  '', '')
-  call <sid>X('vimLineComment',  s:mono_3, '', 'italic')
+  call <sid>X('vimLineComment',  s:mono_3, '', '')
   call <sid>X('vimCommentTitle', s:mono_3, '', 'bold')
   call <sid>X('vimCommand',      s:hue_2,  '', '')
   call <sid>X('vimVar',          s:hue_5,  '', '')
